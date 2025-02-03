@@ -39,3 +39,21 @@ As a user, I would like an easy to navigate website with information on how to p
 As a young adult, I want my choices to have real consequences on the world around me so that the story feels meaningful and my decisions matter.
 
 As a player, I want the option to use my name for character interactions, so that it feels more personalised when other characters address me within the story.
+
+### Colour Design
+
+Color selection is a important part to any design and especially with this design, due to the fact it is primarily word based we need colours that compliment the text and aides in readability whilst not taking the users eyes away from the main centerpoint which is the game itself.
+
+With that in mind we chose... INSERT COLOUR PALLETTE HERE! 
+
+### Fonts
+
+Fonts was another thing to consider when creating this website, the readibility as suggested in the last section is incredibly important.  
+
+FONT 1 was used ... because ...
+
+FONT 2 was used ... because ...
+
+INSERT FONTS.
+
+ADD READIBILITY TESTS ON ALL COLOURS, IMAGES.
