@@ -79,3 +79,28 @@ Due to the particulars of this project, We created these goals for the images:
 - Match all Images in the sequence to promote a clear theme.
 
 Due to the goals of the images we have decided to use custom images created by Megan Otton, as AI or stock images would struggle to match the needs required of our images and are unlikely to follow the same theme and styling required. We are aiming for a storybook-esque aesthetic with linework pieces only to boost user experience but not to take the readers attention away from the main story. 
+
+#### General Features
+In order to fulfil the criteria set out by the user stories, listed above, the page will consist of a header containing the company name, a game section consisting of a interchangable image, story description and two buttons and finally a footer.
+
+Upon the creation and development of the project the design shifted slightly from the wireframe.
+Some key adjustments are as follow:
+- INSERT KEY ADJUSTMENTS
+
+#### Header
+
+#### Game Area
+
+#### Footer
+
+## Responsive Design
+
+With some experimentation we have been able to create a page that is fully responsive to modern standards with the use of media queries.
+
+Below is an image of my website from different devices.
+
+INSERT WEBSITE RESPONSIVENESS IMAGE
+
+Improvements:
+
+INSERT IMPROVEMENTS HERE
