@@ -55,8 +55,8 @@ const chapters = {
             image: "assets/images/bedroom-door.png",
             description: "As you explore the rest of the house, nothing seems out of place. The last place you look is the upstairs bedroom. It's locked! What do you do next {playerName}?",
             options: {
-                a: "chapter3a",
-                b: "chapter3b"
+                a: "chapter4a",
+                b: "chapter4b"
                 
             }
 
@@ -67,8 +67,7 @@ const chapters = {
 
 
             // Add more chapters as needed
-            //Chapter 2A NEEDS ADD 
-            //CHAPTER 2 NEEDS TO GO TO PLACES
+            //CHAPTER 4 NEEDS ADDING
         };
 
         //Start Game Next button Function
@@ -141,8 +140,12 @@ const chapters = {
     
                 } if (chapter === "chapter3") {
                     optionA.textContent = "Back to the kitchen";
-                    optionB.textContent = "BREAK THE DOOR DOWN!";
-    
+                    if (chapters["chapter2a"].visited) {
+                        optionB.textContent = "BREAK THE DOOR DOWN!";
+                        optionB.style.display = "block";
+                    } else {
+                        optionB.style.display = "none";
+                    }
                 }
                
                 // add if/else statement for key requirements in the AM
@@ -150,7 +153,7 @@ const chapters = {
                 //ADD ANOTHER ELSE IF FOR EACH CHAPTER YOU ADD FOLLOWING BUTTON NAMING CONVENTIONS
             }
 
-
+            chapters[chapter].visited = true;
 
         };
 
