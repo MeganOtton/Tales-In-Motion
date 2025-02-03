@@ -25,8 +25,6 @@ const chapters = {
             a: "chapter1",
         }
     },
-
-
     // Add more chapters as needed
 };
 
@@ -73,9 +71,12 @@ function updateCard(chapter) {
     } else {
         optionA.style.display = "block";
         optionB.style.display = "block";
-        document.querySelector(".input-area").style.display = "none";
+        if (chapter !== "start") {
+            document.querySelector(".input-area").style.background = "none";
+        }
         optionA.onclick = () => updateCard(chapters[chapter].options.a);
         optionB.onclick = () => updateCard(chapters[chapter].options.b);
+        console.log(chapter);
 
         //Per Chapter Button/Option Name Change
         if (chapter === "chapter1") {
