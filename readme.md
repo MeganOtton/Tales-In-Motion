@@ -10,7 +10,7 @@ INSERT BRAND IMAGE
 <h1 align="center"> Introduction: </h1>
 
 <p>
-Tales in Motion is a assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp as part of a team effort. The team consists of Ashley O'Sullivan, Megan Otton and Jago INSERT LAST NAME HERE. The learning outcomes for this project is to learn how to work as a team and use Github collabratively, alongside utilising our skills in HTML, CSS, Bootstrap and Java Script in order to create a interactive website. 
+Tales in Motion is a assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp as part of a team effort. The team consists of Ashley O'Sullivan, Megan Otton and Jago Truscott. The learning outcomes for this project is to learn how to work as a team and use Github collabratively, alongside utilising our skills in HTML, CSS, Bootstrap and Java Script in order to create a interactive website. 
 
 The live project can found here: <a target="_blank" href="">Link Here</a>
 </p>
@@ -26,3 +26,16 @@ Tales in Motion is a fictional organisation created for the sole purpose of crea
  - Interactive website that clearly displays the story and intent,
  - Have the story be entertaining for specified audiences.
 
+## UX Design
+
+### User Stories
+
+As a young adult reader, I want to make choices at key points in the story so that I can shape the narrative and experience a personalised adventure.
+
+As a player, I want to choose how my character reacts in difficult situations so that I can influence their personal growth within the story.
+
+As a user, I would like an easy to navigate website with information on how to play so that I can understand how to play. 
+
+As a young adult, I want my choices to have real consequences on the world around me so that the story feels meaningful and my decisions matter.
+
+As a player, I want the option to use my name for character interactions, so that it feels more personalised when other characters address me within the story.
