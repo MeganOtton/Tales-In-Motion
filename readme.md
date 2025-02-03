@@ -104,3 +104,57 @@ INSERT WEBSITE RESPONSIVENESS IMAGE
 Improvements:
 
 INSERT IMPROVEMENTS HERE
+
+## AI Implementation
+
+#### Use Cases and Reflections:
+#### - Code Creation
+  - We used AI like copilot to help implement and generate elements from bootstrap without having to source it from bootstraps website. This sped up creation time exponentially in a project where time is limited.
+
+#### - Debugging 
+  - We used Copilot to fix or change elements of the code to make it more aligned with the websites vision. This was a useful time saving technique which if not used could have taken hours of research to fix/edit manually.
+
+#### - Overall Impact
+  - AI tools streamlined repetive tasks and basic jobs, enabling us to focus on the more complex elements of the development.
+
+## Testing and QA
+
+| Location               | Feature         | Expected Outcome                                                | Pass/Fail |
+| ---------------------- | --------------- | --------------------------------------------------------------- | --------- |
+| PAGE LOCATION     | FEATURE NAME  | USE                            | PASS/FAIL      |
+
+INSERT ROWS BELOW FOR EACH BUTTON ETC
+
+- Conducted multiple tests on Emulated Mobile, Ipad and Laptop and Desktop. Along with a Manual Test On  Mobile, Ipad and Desktop, testing all webpages and links are working correctly.
+    - INSERT DEVICES AND RESOLUTIONS TESTED AT
+
+- All information can be read clearly and the page is responsive.
+
+### Bugs
+
+- No Bugs Found
+
+### Validation
+
+Index Page:
+
+VALIDATER IMAGE SCORE
+
+CSS:
+
+VALIDATER IMAGE SCORE
+
+
+JS:
+
+VALIDATER IMAGE SCORE
+
+Lighthouse:
+
+Mobile
+
+RESPONSIVE IMAGE SCORE LIGHTHOUSE
+
+Desktop
+
+RESPONSIVE IMAGE SCORE LIGHTHOUSE
