@@ -79,5 +79,3 @@ Due to the particulars of this project, We created these goals for the images:
 - Match all Images in the sequence to promote a clear theme.
 
 Due to the goals of the images we have decided to use custom images created by Megan Otton, as AI or stock images would struggle to match the needs required of our images and are unlikely to follow the same theme and styling required. We are aiming for a storybook-esque aesthetic with linework pieces only to boost user experience but not to take the readers attention away from the main story. 
-
-TESTING
