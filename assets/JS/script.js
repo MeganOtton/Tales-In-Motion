@@ -25,7 +25,19 @@ const chapters = {
             a: "chapter1",
         }
     },
+
+    chapter2: {
+        title: "Chapter 2: Kitchen",
+        image: "assets/images/kitchen.png",
+        description: "You’ve decided to enter the cottage, you walk into the cozy kitchen you're accustomed to. Nothing appears to be out of place at first glance. The porridge you left to cool before your walk is still on the wooden table. The smell of the porridge still in the air. What do you do, {playerName}?",
+        options: {
+            a: "chapter2a",
+            b: "3"
+        }
+    },
     // Add more chapters as needed
+    //Chapter 2A NEEDS ADD 
+    //CHAPTER 2 NEEDS TO GO TO PLACES
 };
 
 //Start Game Next button Function
@@ -67,13 +79,15 @@ function updateCard(chapter) {
     if (chapter === "start") {
         optionA.style.display = "none";
         optionB.style.display = "none";
-        document.querySelector(".input-area").style.display = "flex";
-    } else {
+        document.getElementById("player-name").style.display = "flex";
+      } 
+    else {
         optionA.style.display = "block";
         optionB.style.display = "block";
-        if (chapter !== "start") {
-            document.querySelector(".input-area").style.background = "none";
-        }
+        document.getElementById("player-name").style.display = "none";
+        // if (chapter !== "start") {
+        //   document.getElementById("player-name").style.display = "flex";
+        // }
         optionA.onclick = () => updateCard(chapters[chapter].options.a);
         optionB.onclick = () => updateCard(chapters[chapter].options.b);
         console.log(chapter);
@@ -82,9 +96,17 @@ function updateCard(chapter) {
         if (chapter === "chapter1") {
             optionA.textContent = "Explore Inside";
             optionB.textContent = "Explore Outside";
+                
         }
-    }
-}
+        else if (chapter === "chapter1A") {
+            optionA.textContent = "Go Back";
+            optionB.style.display = "none";
+        }
+
+        //ADD ANOTHER ELSE IF FOR EACH CHAPTER YOU ADD FOLLOWING BUTTON NAMING CONVENTIONS
+    }  
+
+};
 
 // Initialize the game with the start chapter
 updateCard("start");
