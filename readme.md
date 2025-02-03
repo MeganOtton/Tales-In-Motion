@@ -57,3 +57,11 @@ FONT 2 was used ... because ...
 INSERT FONTS.
 
 ADD READIBILITY TESTS ON ALL COLOURS, IMAGES.
+
+## Wireframes
+
+These wireframes have been created using Balsamiq to define the key feature layout to guide the user experience design. We will be using mostly our own code rather than Bootstrap elements so that it is easier to configure the functions in Java Script.
+
+#### Index Page
+
+INSERT IMAGE HERE!
