@@ -65,3 +65,17 @@ These wireframes have been created using Balsamiq to define the key feature layo
 #### Index Page
 
 INSERT IMAGE HERE!
+
+## Imagery
+
+Due to the nature of this project it heavily relies on imagery in the form of active descriptions and actual images. The images needed to be Copyright free and Royalty Free as well and most importantly match the descriptions set out in the script. This is to aid in our users experience and allow users to have a clearer picture of the scene and setting. 
+
+Due to the particulars of this project, We created these goals for the images:
+
+- Clear in the meaning of the image,,
+- Appropriate for the intended audience (16 and above),
+- Avoid triggering or sensitive imagery or themes,
+- Showcase the story element it is representing clearly,
+- Match all Images in the sequence to promote a clear theme.
+
+Due to the goals of the images we have decided to use custom images created by Megan Otton, as AI or stock images would struggle to match the needs required of our images and are unlikely to follow the same theme and styling required. We are aiming for a storybook-esque aesthetic with linework pieces only to boost user experience but not to take the readers attention away from the main story. 
