@@ -84,12 +84,26 @@ const chapters = {
             }
         };
 
-        //Start Again Button Function
+        // Add event listener for Enter key
+        document.getElementById("player-name").addEventListener("keyup", function(event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                document.getElementById("next-button").click();
+            }
+        });
+
+        //Start Again Button Function - Now Inlcudes Cache Clear
         document.getElementById("start-again").onclick = () => {
             document.querySelector(".input-area").style.display = "flex";
             document.getElementById("next-button").style.display = "block";
             document.querySelector(".choice-area.d-flex.justify-content-between").style.display = "none";
             document.getElementById("player-name").value = "";
+            playerName = "";
+            for (let chapter in chapters) {
+            if (chapters.hasOwnProperty(chapter)) {
+                chapters[chapter].visited = false;
+            }
+            }
             updateCard("start");
         };
 
