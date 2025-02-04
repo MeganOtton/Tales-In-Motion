@@ -90,6 +90,12 @@ const chapters = {
             document.getElementById("next-button").style.display = "block";
             document.querySelector(".choice-area.d-flex.justify-content-between").style.display = "none";
             document.getElementById("player-name").value = "";
+            playerName = "";
+            for (let chapter in chapters) {
+            if (chapters.hasOwnProperty(chapter)) {
+                chapters[chapter].visited = false;
+            }
+            }
             updateCard("start");
         };
 
