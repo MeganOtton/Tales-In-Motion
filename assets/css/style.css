@@ -1,6 +1,6 @@
 /* NavBar */
 .heading {
-  font-family: Bona Nova SC;
+  font-family: "Bona Nova SC";
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -22,7 +22,7 @@ body {
 
 /* Chapter Title */
 #chapter-title {
-  font-family: Frank Ruhl Libre;
+  font-family: "Frank Ruhl Libre";
   color: white;
   font-weight: 350;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 #card-description {
-  font-family: Frank Ruhl Libre;
+  font-family: "Frank Ruhl Libre";
   font-weight: 600;
   color: rgb(0, 0, 0);
   font-size: 160%;
@@ -57,13 +57,13 @@ body {
 }
 
 .form-control{
-  font-family: Frank Ruhl Libre;
+  font-family: "Frank Ruhl Libre";
   font-size: 140%;
   font-weight: 500;
 }
 
 .btn {
-  font-family: Frank Ruhl Libre;
+  font-family: "Frank Ruhl Libre";
   font-size: 100%;
   margin-top: 10px;
   box-shadow: 0 5px 10px #0000008a;
@@ -86,7 +86,7 @@ footer {
 /* Footer Links */
 a {
   color: white;
-  font-family: Frank Ruhl Libre;
+  font-family: "Frank Ruhl Libre";
   font-size: 160%;
 }
 
