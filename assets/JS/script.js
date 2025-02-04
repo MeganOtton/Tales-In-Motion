@@ -92,7 +92,7 @@ const chapters = {
 
 
             // Add more chapters as needed
-            //CHAPTER 4 NEEDS ADDING
+            //CHAPTER 4 NEEDS ART UPDATES
         };
 
         //Start Game Next button Function
