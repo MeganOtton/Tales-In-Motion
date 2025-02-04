@@ -185,7 +185,6 @@ const chapters = {
                 // }
                 optionA.onclick = () => updateCard(chapters[chapter].options.a);
                 optionB.onclick = () => updateCard(chapters[chapter].options.b);
-                console.log(chapter);
 
                 //Per Chapter Button/Option Name Change
                 if (chapter === "chapter1") {
