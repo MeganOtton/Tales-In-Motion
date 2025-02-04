@@ -139,13 +139,15 @@ const chapters = {
                     optionB.textContent = "Explore the rest of the house";
     
                 } if (chapter === "chapter3") {
-                    optionA.textContent = "Back to the kitchen";
                     if (chapters["chapter2a"].visited) {
-                        optionB.textContent = "BREAK THE DOOR DOWN!";
-                        optionB.style.display = "block";
+                        optionA.textContent = "Unlock the door";
+                        optionA.onclick = () => updateCard("4a");
                     } else {
-                        optionB.style.display = "none";
+                        optionA.textContent = "Back to the kitchen";
+                        optionA.onclick = () => updateCard("chapter2");
                     }
+                    optionB.textContent = "BREAK THE DOOR DOWN";
+                    optionB.onclick = () => updateCard("chapter4b");
                 }
                
                 // add if/else statement for key requirements in the AM
