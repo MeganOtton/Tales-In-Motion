@@ -58,11 +58,36 @@ const chapters = {
                 a: "chapter4a",
                 b: "chapter4b"
                 
-            }
+            },
 
 
         },
         
+        chapter4a: {
+            title: "Chapter 4: The Tresspasser!",
+            image: "assets/images/bedroom-door.png",
+            description: "You quietly unlock the bedroom door and slowly open it. Looking around, you see your bed, the covers disturbed as though somebody has recently been in it. The middle bed is in a similar state, but what really catches your eye is the lump in the smallest bed. The covers are moving slightly, there's somebody in there! What do you do {playerName}?",
+            options: {
+                a: "goodEndingA",
+                b: "goodEndingB"
+                
+            }
+
+
+        },
+
+        chapter4b: {
+            title: "Chapter 4: The Tresspasser!",
+            image: "assets/images/bedroom-door.png",
+            description: "The door is locked, but you're not going to let that stop you. You take a few steps back and charge at the door, it splinters and breaks open. A figure in the smallest bed jumps up and leaps out of the broken window, making her nimble escape. She has avoided justice and your wrath.",
+            options: {
+                a: "goodEndingA",
+                b: "goodEndingB"
+                
+            }
+
+
+        },
 
 
 
@@ -155,13 +180,20 @@ const chapters = {
                 } if (chapter === "chapter3") {
                     if (chapters["chapter2a"].visited) {
                         optionA.textContent = "Unlock the door";
-                        optionA.onclick = () => updateCard("4a");
                     } else {
                         optionA.textContent = "Back to the kitchen";
                         optionA.onclick = () => updateCard("chapter2");
                     }
                     optionB.textContent = "BREAK THE DOOR DOWN";
                     optionB.onclick = () => updateCard("chapter4b");
+                } if (chapter === "chapter4a") {
+                    optionA.textContent = "Eat her up!";
+                    optionB.textContent = "Call the park rangers for help";
+    
+                } if (chapter === "chapter4b") {
+                    optionA.style.display = "none";
+                 optionB.style.display = "none";
+    
                 }
                
                 // add if/else statement for key requirements in the AM
