@@ -1,0 +1,46 @@
+.heading {
+    font-family: Bona Nova SC;
+    color: white;
+    
+}
+
+#pageheader {
+  background-color: grey;
+}
+
+#chapter-title {
+    font-family: Frank Ruhl Libre;
+    color: white;
+}
+
+.card {
+  background-color:black;
+  border: 50px;
+  border-color: aquamarine ;
+}
+
+#card-description {
+    font-family: Frank Ruhl Libre;
+    color: rgb(255, 255, 255);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+footer {
+  min-height: 25px;
+  background: PapayaWhip;
+}
+
+#button-start {
+  font-family: Frank Ruhl Libre;
+}
+
+#button-start-again {
+  font-family: Frank Ruhl Libre;
+}
+
+
