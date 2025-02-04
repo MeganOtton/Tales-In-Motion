@@ -89,10 +89,37 @@ const chapters = {
 
         },
 
+        goodEndingA: {
+            title: "The End",
+            image: "assets/images/bedroom-door.png",
+            description: "As a bear, you are expertly equipped to deal with intruders and protect your family. Thankfully it got you a nice meal out of it too and it was just right.",
+            options: {
+                a: "goodEndingA",
+                b: "goodEndingB"
+                
+            }
+
+
+        },
+
+        goodEndingB: {
+            title: "The End",
+            image: "assets/images/bedroom-door.png",
+            description: "Being a friendly, law-abiding bear, you decide to call the park rangers for help. They arrive and take the intruder away, you and your family are safe once more.",
+            options: {
+                a: "goodEndingA",
+                b: "goodEndingB"
+                
+            }
+
+
+        },
+
 
 
             // Add more chapters as needed
-            //CHAPTER 4 NEEDS ART UPDATES
+            // goodEndingA and goodEndingB need adding
+            //CHAPTERS 3, 4 + ENDINGS NEED ART UPDATES
         };
 
         //Start Game Next button Function
@@ -195,8 +222,18 @@ const chapters = {
                  optionB.style.display = "none";
     
                 }
+
+                if (chapter === "goodEndingA") {
+                    optionA.style.display = "none";
+                 optionB.style.display = "none";
+    
+                } if (chapter === "goodEndingB") {
+                    optionA.style.display = "none";
+                 optionB.style.display = "none";
+    
+                }
                
-                // add if/else statement for key requirements in the AM
+                // 
 
                 //ADD ANOTHER ELSE IF FOR EACH CHAPTER YOU ADD FOLLOWING BUTTON NAMING CONVENTIONS
             }
