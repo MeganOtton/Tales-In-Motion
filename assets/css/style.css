@@ -43,6 +43,7 @@ body {
   box-shadow: 0 10px 20px #00000096;
   border-width: 1vh;
   border-color: rgb(82, 10, 10);
+  margin-bottom: 10vh;
 }
 
 #card-description {
