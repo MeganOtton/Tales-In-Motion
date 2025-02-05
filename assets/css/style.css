@@ -100,37 +100,42 @@ a {
 
 @media screen and (min-width: 230px) and (max-width: 320px) {
   .card {
-    max-width: 90vw;
+    max-width: 90vw !important;
+  }
+
+  /* Footer Links */
+  a {
+    font-size: 100%;
   }
 }
 
-@media screen and (min-width: 230px) and (max-width: 320px) {
-  .card {
-    max-width: 90vw;
-  }
-}
 
 @media screen and (min-width: 321px) and (max-width: 425px) {
   .card {
-    max-width: 90vw;
+    max-width: 90vw !important;
+  }
+
+  /* Footer Links */
+  a {
+    font-size: 100%;
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .card {
-    max-width: 90vw;
+    max-width: 90vw !important;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .card {
-    max-width: 90vw;
+    max-width: 90vw !important;
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px){
   .card {
-    max-width: 25vw;
+    max-width: 80vw;
     margin-bottom: 5vh;
   }
 }
