@@ -112,7 +112,7 @@ a {
   line-height: 0px;
 }
 
-<<<<<<< main
+
 @media screen and (min-width: 230px) and (max-width: 320px) {
   .card {
     max-width: 90vw !important;
@@ -153,7 +153,8 @@ a {
     max-width: 80vw;
     margin-bottom: 5vh;
   }
-=======
+}
+
 #mute_button {
   position: absolute;
   top: 10px;
@@ -161,5 +162,4 @@ a {
   margin-top: 0px;
   box-shadow: 0 0px 0px;
   line-height: 0px;
->>>>>>> Ashley
 }
