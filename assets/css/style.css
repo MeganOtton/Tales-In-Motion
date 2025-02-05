@@ -44,6 +44,8 @@ body {
   border-width: 1vh;
   border-color: rgb(82, 10, 10);
   margin-bottom: 10vh;
+  max-width: 45vw;
+  justify-content: center;
 }
 
 #card-description {
@@ -54,6 +56,11 @@ body {
   background-color: rgba(255, 255, 255, 0.281);
   padding-left: 6px;
   padding-right: 6px;
+}
+
+#card-container {
+  display: flex;
+  align-items: center;
 }
 
 .form-control{
@@ -90,9 +97,10 @@ a {
   font-size: 160%;
 }
 
+/* Instruction Modal */
 .instructions {
   background-color: none;
-border: none;
+  border: none;
 }
 
 #modal_trigger {
@@ -102,4 +110,46 @@ border: none;
   margin-top: 0px;
   box-shadow: 0 0px 0px;
   line-height: 0px;
+}
+
+@media screen and (min-width: 230px) and (max-width: 320px) {
+  .card {
+    max-width: 90vw !important;
+  }
+
+  /* Footer Links */
+  a {
+    font-size: 100%;
+  }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  .card {
+    max-width: 90vw !important;
+  }
+
+  /* Footer Links */
+  a {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .card {
+    max-width: 90vw !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    max-width: 90vw !important;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+  .card {
+    max-width: 80vw;
+    margin-bottom: 5vh;
+  }
 }
