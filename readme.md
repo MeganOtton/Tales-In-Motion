@@ -45,25 +45,21 @@ As a player, I want the option to use my name for character interactions, so tha
 
 Color selection is a important part to any design and especially with this design, due to the fact it is primarily word based we need colours that compliment the text and aides in readability whilst not taking the users eyes away from the main centerpoint which is the game itself.
 
-With that in mind we chose... INSERT COLOUR PALLETTE HERE! 
+With that in mind we chose a wooden texture for the background to mimic a table backdrop and added red elements like the header and footer to represent traditional ribbon book marks. All the while having white headers to aid in readibility and to add emphasis to the main parts. 
 
 ### Fonts
 
 Fonts was another thing to consider when creating this website, the readibility as suggested in the last section is incredibly important.  
 
-FONT 1 was used ... because ...
+Bona Nova SC was used for the headers because it mimics traditional old fashioned book title fonts whilst still being legible.
 
-FONT 2 was used ... because ...
+Frank Ruhl Libre was used for the main text elements for similar reasons as above. 
 
-INSERT FONTS.
-
-ADD READIBILITY TESTS ON ALL COLOURS, IMAGES.
+<img src="/readme_resources/font_readibility_score.png" alt="Header & Footer Readibility Score">
+<img src="/readme_resources/main_font_readibility_score.png" alt="Main Text Readibility Score">
 
 ## Wireframes
-![Initial webpage wireframe](https://github.com/Ashleytosullivan/goldilocks-adventure/blob/main/readme_resources/goldi%20locks%20wire%20fram%20v1.png)
-![Phone wire frame](https://github.com/Ashleytosullivan/goldilocks-adventure/blob/main/readme_resources/locks-phone-frame.PNG)
-![Tablet wire frame](https://github.com/Ashleytosullivan/goldilocks-adventure/blob/main/readme_resources/locks-tablet-frame.PNG)
-
+<img src="/readme_resources/wireframes.png" alt="Phone, Tablet and Laptop Wireframe">
 
 These wireframes have been created using Balsamiq to define the key feature layout to guide the user experience design. We will be using mostly our own code rather than Bootstrap elements so that it is easier to configure the functions in Java Script.
 
