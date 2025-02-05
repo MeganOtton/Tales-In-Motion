@@ -137,18 +137,13 @@ INSERT ROWS BELOW FOR EACH BUTTON ETC
 
 ### Validation
 
-Index Page:
+Index Page: ![readme_resources/html-valid.PNG]
 
 VALIDATER IMAGE SCORE
 
-CSS:
+CSS: ![readme_resources/css-valid.PNG]
 
-VALIDATER IMAGE SCORE
-
-
-JS:
-
-VALIDATER IMAGE SCORE
+JS: ![readme_resources/js-valid.PNG]
 
 Lighthouse:
 

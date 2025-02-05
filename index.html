@@ -21,18 +21,22 @@
     <!--CSS Sheet Link-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tales In Motion</title>
+ 
 
 </head>
 
 <body>
+  
     <div>
         <h1 id=pageheader class="heading">
             <i class="fa-solid fa-book-open"></i>
             Tales in Motion
 
             <!-- Button trigger modal -->
-           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: transparent; border: none;" id="modal_trigger"> <i class="fa-solid fa-question"></i></button>
-
+           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: transparent; border: none;" id="modal_trigger" aria-label="instructions"> <i class="fa-solid fa-question"></i></button>
+        
+       
+          
             <!-- Instructions Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
@@ -52,13 +56,20 @@
                     </div>
                 </div>
             </div>
-        </h1>
+
+          
+        </h1> 
+   <!-- Audio Element -->
+        <div class=" d-flex justify-content-center">  <button type="button" class="btn btn-primary" id="mute-button" style="background-color: transparent; border: none;" aria-label="Mute">
+            <i class="fa-solid fa-volume-xmark"></i>
+        </button></div>
         <h1 class="heading text-center">Goldilocks and The Three Bears</h1>
 
     </div>
 
 
     <main>
+      
         <div class="d-flex justify-content-center">
             <!--Chapter Title-->
             <h2 id="chapter-title" style="color: white;">Chapter Title</h2>
@@ -102,23 +113,30 @@
                 </div>
             </div>
         </div>
-
+     
     </main>
 
     <!--Footer section-->
     <footer class="d-flex justify-content-center mt-5">
         <div>
             <a href="https://github.com/Jxg0Tr5" target="blank"><i class="fa-brands fa-github"
-                    style="color: #ffffff;">Jago</i></a>
+                    style="color: #ffffff;" aria-label="github-link-jago">Jago</i></a>
             <span>&nbsp;&nbsp;</span>
-            <a href="https://github.com/Ashleytosullivan" target="blank"><i class="fa-brands fa-github"
+            <a href="https://github.com/Ashleytosullivan" target="blank" aria-label="github-link-ashley"><i class="fa-brands fa-github"
                     style="color: #ffffff;">Ashley</i></a>
             <span>&nbsp;&nbsp;</span>
 
-            <a href="https://github.com/MeganOtton" target="blank"><i class="fa-brands fa-github"
+            <a href="https://github.com/MeganOtton" target="blank" aria-label="github-link-megan"><i class="fa-brands fa-github"
                     style="color: #ffffff;">Megan</i></a>
         </div>
+
+     
     </footer>
+
+    <audio id="background-audio">
+        <source src="assets/audio/backgroundaudio.mp3" type="audio/mp3">
+      
+    </audio>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
@@ -129,6 +147,8 @@
 
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/534a5aedda.js" crossorigin="anonymous"></script>
+
+  
 </body>
 
 </html>
