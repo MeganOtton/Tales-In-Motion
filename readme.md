@@ -65,7 +65,7 @@ These wireframes have been created using Balsamiq to define the key feature layo
 
 #### Index Page
 
-INSERT IMAGE HERE!
+<img src="/readme_resources/index_page.png" alt="Picture of the index page">
 
 ## Imagery
 
@@ -86,13 +86,12 @@ In order to fulfil the criteria set out by the user stories, listed above, the p
 
 Upon the creation and development of the project the design shifted slightly from the wireframe.
 Some key adjustments are as follow:
-- INSERT KEY ADJUSTMENTS
+- The addition of a How to Modal in the form of a fav-icon on the header,
+- Story chapter moving from the side to the center,
+- Tales in motion is no longer represented by a Jam Jar.
 
-#### Header
-
-#### Game Area
-
-#### Footer
+#### Index Page
+<img src="/readme_resources/index_page.png" alt="Picture of the index page">
 
 ## Responsive Design
 
@@ -100,11 +99,11 @@ With some experimentation we have been able to create a page that is fully respo
 
 Below is an image of my website from different devices.
 
-INSERT WEBSITE RESPONSIVENESS IMAGE
+<img src="/readme_resources/responsive_image.png" alt="Picture of the index page on different devices">
 
 Improvements:
 
-INSERT IMPROVEMENTS HERE
+If we were to improve this further we would look further into the fav icon images on the header as at certain resoloutions they change sizes from each other. 
 
 ## AI Implementation
 
