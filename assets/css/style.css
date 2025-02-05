@@ -99,25 +99,29 @@ a {
 
 /* Instruction Modal */
 .instructions {
+  background-color: none;
   border: none;
 }
 
 #modal_trigger {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 50px; /* Adjusted to make space for the mute button */
   margin-top: 0px;
   box-shadow: 0 0px 0px;
   line-height: 0px;
+  height: 30px; /* Set a fixed height */
+  margin-right: 10px;
 }
 
-#mute_button {
+#mute-button {
   position: absolute;
   top: 10px;
   right: 10px;
   margin-top: 0px;
   box-shadow: 0 0px 0px;
   line-height: 0px;
+  height: 50px; /* Set the same fixed height as modal trigger */
 }
 
 @media screen and (min-width: 230px) and (max-width: 320px) {
@@ -161,4 +165,3 @@ a {
     margin-bottom: 5vh;
   }
 }
-
