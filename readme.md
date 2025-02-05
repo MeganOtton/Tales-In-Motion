@@ -1,10 +1,11 @@
+
 INSERT BRAND IMAGE
 
 <h1 align="center">Tales In Motion</h1>
 
 <div align="center"> 
-<a target="_blank" href=""> | Live Link Here | </a>
-<a target="_blank" href=""> | Project Board | </a>
+<a target="_blank" href="https://ashleytosullivan.github.io/goldilocks-adventure/"> | Live Link Here | </a>
+<a target="_blank" href="https://miro.com/app/board/uXjVLlv8dx4=/"> | Project Board | </a>
 </div align="center"> 
 
 <h1 align="center"> Introduction: </h1>
@@ -12,7 +13,7 @@ INSERT BRAND IMAGE
 <p>
 Tales in Motion is a assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp as part of a team effort. The team consists of Ashley O'Sullivan, Megan Otton and Jago Truscott. The learning outcomes for this project is to learn how to work as a team and use Github collabratively, alongside utilising our skills in HTML, CSS, Bootstrap and Java Script in order to create a interactive website. 
 
-The live project can found here: <a target="_blank" href="">Link Here</a>
+The live project can found here: <a target="_blank" href="https://ashleytosullivan.github.io/goldilocks-adventure/">Link Here</a>
 </p>
 
 ## Project Outline
@@ -59,6 +60,11 @@ INSERT FONTS.
 ADD READIBILITY TESTS ON ALL COLOURS, IMAGES.
 
 ## Wireframes
+<img width="270" alt="locks-phone-frame" src="https://github.com/user-attachments/assets/96320733-5f84-4a46-b3b9-468c8116d07b" />
+<img width="284" alt="locks-tablet-frame" src="https://github.com/user-attachments/assets/5815d2c8-0492-40e2-9e82-fe97ddd35f89" />
+<img width="1229" alt="locks-webpage-frame" src="https://github.com/user-attachments/assets/0f08261d-30fa-4be3-b7dd-e076e5c941be" />
+
+
 
 These wireframes have been created using Balsamiq to define the key feature layout to guide the user experience design. We will be using mostly our own code rather than Bootstrap elements so that it is easier to configure the functions in Java Script.
 
