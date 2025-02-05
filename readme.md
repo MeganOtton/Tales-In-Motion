@@ -60,6 +60,7 @@ Frank Ruhl Libre was used for the main text elements for similar reasons as abov
 
 ## Wireframes
 <img src="/readme_resources/wireframes.png" alt="Phone, Tablet and Laptop Wireframe">
+<img src="/readme_resources/locks-webpage-wireframe-final.png>
 
 These wireframes have been created using Balsamiq to define the key feature layout to guide the user experience design. We will be using mostly our own code rather than Bootstrap elements so that it is easier to configure the functions in Java Script.
 
@@ -149,14 +150,14 @@ If we were to improve this further we would look further into the fav icon image
 
 ### Validation
 
-Index Page: ![HTML](/readme_resources/html-valid.PNG)
+Index Page: <img src="/readme_resources/html-valid.PNG>
 
 
 
-CSS: ![CSS](/readme_resources/css-valid.PNG)
+CSS: <img src="/readme_resources/css-valid.PNG>
 
 JS: 
-![JavaScript](/readme_resources/js-valid.PNG)
+<img src="/readme_resources/js-valid.PNG>
 
 Lighthouse:
 
@@ -164,12 +165,12 @@ Mobile
 
 The mobile Lighthouse score was reduced by a number of issues at the time of testing, predominantly the Largest Contentful Paint element. This issue can be resolved by pre loading the image in future projects.
 
-![Lighthouse](/readme_resources/lighthouse-mobile.PNG)
+<img src="/readme_resources/lighthouse-mobile.PNG>
 
 Desktop
 
 
-![Lighthouse](/readme_resources/lighthouse-desktop.PNG)
+<img src="/readme_resources/lighthouse-desktop.PNG>
 
 
 ### Credits
