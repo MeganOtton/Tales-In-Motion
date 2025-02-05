@@ -60,10 +60,9 @@ INSERT FONTS.
 ADD READIBILITY TESTS ON ALL COLOURS, IMAGES.
 
 ## Wireframes
-<img width="270" alt="locks-phone-frame" src="https://github.com/user-attachments/assets/96320733-5f84-4a46-b3b9-468c8116d07b" />
-<img width="284" alt="locks-tablet-frame" src="https://github.com/user-attachments/assets/5815d2c8-0492-40e2-9e82-fe97ddd35f89" />
-<img width="1229" alt="locks-webpage-frame" src="https://github.com/user-attachments/assets/0f08261d-30fa-4be3-b7dd-e076e5c941be" />
-
+![Initial webpage wireframe](https://github.com/Ashleytosullivan/goldilocks-adventure/blob/main/readme_resources/goldi%20locks%20wire%20fram%20v1.png)
+![Phone wire frame](https://github.com/Ashleytosullivan/goldilocks-adventure/blob/main/readme_resources/locks-phone-frame.PNG)
+![Tablet wire frame](https://github.com/Ashleytosullivan/goldilocks-adventure/blob/main/readme_resources/locks-tablet-frame.PNG)
 
 
 These wireframes have been created using Balsamiq to define the key feature layout to guide the user experience design. We will be using mostly our own code rather than Bootstrap elements so that it is easier to configure the functions in Java Script.
