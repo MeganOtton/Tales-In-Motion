@@ -4,8 +4,8 @@ INSERT BRAND IMAGE
 <h1 align="center">Tales In Motion</h1>
 
 <div align="center"> 
-<a target="_blank" href=""> | Live Link Here | </a>
-<a target="_blank" href=""> | Project Board | </a>
+<a target="_blank" href="https://ashleytosullivan.github.io/goldilocks-adventure/"> | Live Link Here | </a>
+<a target="_blank" href="https://miro.com/app/board/uXjVLlv8dx4=/"> | Project Board | </a>
 </div align="center"> 
 
 <h1 align="center"> Introduction: </h1>
