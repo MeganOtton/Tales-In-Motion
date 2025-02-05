@@ -141,13 +141,13 @@ INSERT ROWS BELOW FOR EACH BUTTON ETC
 
 ### Validation
 
-Index Page: ![readme_resources/html-valid.PNG]
+Index Page: ![HTML](/readme_resources/html-valid.PNG)
 
 VALIDATER IMAGE SCORE
 
-CSS: ![readme_resources/css-valid.PNG]
+CSS: ![CSS](/readme_resources/css-valid.PNG)
 
-JS: ![readme_resources/js-valid.PNG]
+JS: ![JavaScript](/readme_resources/js-valid.PNG)
 
 Lighthouse:
 
@@ -155,6 +155,10 @@ Mobile
 
 RESPONSIVE IMAGE SCORE LIGHTHOUSE
 
+![Lighthouse](/readme_resources/lighthouse-mobile.PNG)
+
 Desktop
 
 RESPONSIVE IMAGE SCORE LIGHTHOUSE
+
+![Lighthouse](/readme_resources/lighthouse-desktop.PNG)
