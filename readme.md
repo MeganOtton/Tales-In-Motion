@@ -121,12 +121,28 @@ If we were to improve this further we would look further into the fav icon image
 
 | Location               | Feature         | Expected Outcome                                                | Pass/Fail |
 | ---------------------- | --------------- | --------------------------------------------------------------- | --------- |
-| PAGE LOCATION     | FEATURE NAME  | USE                            | PASS/FAIL      |
+
+|Index/ / Nar Bar    | Instructions | Popup with instructions on how to play                          | PASS     |
+|Index / Nar Bar     | Mute  | Mute the background audio                            | PASS      |
+|Index / Card     | Choices buttons  | Allow the user to make narrative choices                      | PASS      |
+|Index / Card     | Name insert  | Allow the user to input their chosen name                         | PASS      |
+|Index / Card     | Start Again | Allow the user to restard the game                         | PASS      |
+|Index / Footer     | Credits  | Take user to authors' github pages                        | PASS      |
+|Index / Hidden     | Audio  | Audio to start playing after the player inputs their name                       | PASS      |
 
 INSERT ROWS BELOW FOR EACH BUTTON ETC
 
 - Conducted multiple tests on Emulated Mobile, Ipad and Laptop and Desktop. Along with a Manual Test On  Mobile, Ipad and Desktop, testing all webpages and links are working correctly.
-    - INSERT DEVICES AND RESOLUTIONS TESTED AT
+    - Desktop Devices
+    - iPhone SE
+    - Iphone 12 Pro
+    - Iphone 14 Pro Max
+    - Pixel 7
+    - iPad Air
+    - iPad Pro
+    - Samsung Galaxy 8+
+    - Samsung Galaxy S20 Ultra
+    - Nest Hub
 
 - All information can be read clearly and the page is responsive.
 
@@ -138,11 +154,12 @@ INSERT ROWS BELOW FOR EACH BUTTON ETC
 
 Index Page: ![HTML](/readme_resources/html-valid.PNG)
 
-VALIDATER IMAGE SCORE
+
 
 CSS: ![CSS](/readme_resources/css-valid.PNG)
 
-JS: ![JavaScript](/readme_resources/js-valid.PNG)
+JS: 
+![JavaScript](/readme_resources/js-valid.PNG)
 
 Lighthouse:
 
