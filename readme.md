@@ -13,7 +13,7 @@ INSERT BRAND IMAGE
 <p>
 Tales in Motion is a assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp as part of a team effort. The team consists of Ashley O'Sullivan, Megan Otton and Jago Truscott. The learning outcomes for this project is to learn how to work as a team and use Github collabratively, alongside utilising our skills in HTML, CSS, Bootstrap and Java Script in order to create a interactive website. 
 
-The live project can found here: <a target="_blank" href="">Link Here</a>
+The live project can found here: <a target="_blank" href="https://ashleytosullivan.github.io/goldilocks-adventure/">Link Here</a>
 </p>
 
 ## Project Outline
