@@ -241,5 +241,32 @@ const chapters = {
 
         };
 
+
+        // EVENT LISTENER FOR AUDIO
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const audioElement = document.getElementById('background-audio');
+            const inputElements = document.querySelectorAll('input, textarea');
+
+            inputElements.forEach(input => {
+                input.addEventListener('input', () => {
+                    if (audioElement.paused) {
+                        audioElement.play();
+                    }
+                });
+            });
+        });
+
+        // EVENT LISTENER FOR MUTE
+
+        document.getElementById('mute-button').addEventListener('click', function() {
+            var audio = document.getElementById('background-audio');
+            if (audio.muted) {
+                audio.muted = false;
+            } else {
+                audio.muted = true;
+            }
+        });
+
         // Initialize the game with the start chapter
         updateCard("start");
