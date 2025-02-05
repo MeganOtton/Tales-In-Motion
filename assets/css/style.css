@@ -90,6 +90,9 @@ a {
   font-size: 160%;
 }
 
-
+.instructions {
+  background-color: none;
+border: none;
+}
 
 
