@@ -122,13 +122,13 @@ If we were to improve this further we would look further into the fav icon image
 | Location               | Feature         | Expected Outcome                                                | Pass/Fail |
 | ---------------------- | --------------- | --------------------------------------------------------------- | --------- |
 
-|Index/ / Nar Bar    | Instructions | Popup with instructions on how to play                          | PASS     |
-|Index / Nar Bar     | Mute  | Mute the background audio                            | PASS      |
-|Index / Card     | Choices buttons  | Allow the user to make narrative choices                      | PASS      |
-|Index / Card     | Name insert  | Allow the user to input their chosen name                         | PASS      |
-|Index / Card     | Start Again | Allow the user to restard the game                         | PASS      |
-|Index / Footer     | Credits  | Take user to authors' github pages                        | PASS      |
-|Index / Hidden     | Audio  | Audio to start playing after the player inputs their name                       | PASS      |
+| Index/ / Nar Bar    | Instructions | Popup with instructions on how to play                          | PASS     |
+| Index / Nar Bar     | Mute  | Mute the background audio                            | PASS      |
+| Index / Card     | Choices buttons  | Allow the user to make narrative choices                      | PASS      |
+| Index / Card     | Name insert  | Allow the user to input their chosen name                         | PASS      |
+| Index / Card     | Start Again | Allow the user to restard the game                         | PASS      |
+| Index / Footer     | Credits  | Take user to authors' github pages                        | PASS      |
+| Index / Hidden     | Audio  | Audio to start playing after the player inputs their name                       | PASS      |
 
 INSERT ROWS BELOW FOR EACH BUTTON ETC
 
