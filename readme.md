@@ -1,5 +1,5 @@
 
-INSERT BRAND IMAGE
+![Tales In Motion Hero PNG](/Readme_Resources/front_page_readme.png)
 
 <h1 align="center">Tales In Motion</h1>
 
