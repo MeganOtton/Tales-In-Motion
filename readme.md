@@ -158,6 +158,7 @@ Index Page: ![HTML](/readme_resources/html-valid.PNG)
 CSS: ![CSS](/readme_resources/css-valid.PNG)
 
 JS: 
+
 ![JavaScript](/readme_resources/js-valid.PNG)
 
 Lighthouse:
