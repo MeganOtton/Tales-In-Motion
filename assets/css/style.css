@@ -1,0 +1,95 @@
+/* NavBar */
+.heading {
+  font-family: "Bona Nova SC";
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#pageheader {
+  background-color: rgb(82, 10, 10);
+  box-shadow: 0 10px 20px #00000096;
+}
+
+/* Body */
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("../images/wood.webp");
+}
+
+/* Chapter Title */
+#chapter-title {
+  font-family: "Frank Ruhl Libre";
+  color: white;
+  font-weight: 350;
+}
+
+/* Game Area */
+.card-image {
+  height: fit-content;
+  width: fit-content;
+}
+
+.card-body{
+  background-image: url("../images/blank_parchment.webp");
+  background-size: cover;
+}
+
+.card {
+  height: 100%;
+  box-shadow: 0 10px 20px #00000096;
+  border-width: 1vh;
+  border-color: rgb(82, 10, 10);
+  margin-bottom: 10vh;
+}
+
+#card-description {
+  font-family: "Frank Ruhl Libre";
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  font-size: 160%;
+  background-color: rgba(255, 255, 255, 0.281);
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.form-control{
+  font-family: "Frank Ruhl Libre";
+  font-size: 140%;
+  font-weight: 500;
+}
+
+.btn {
+  font-family: "Frank Ruhl Libre";
+  font-size: 100%;
+  margin-top: 10px;
+  box-shadow: 0 5px 10px #0000008a;
+}
+
+#button {
+  padding-top: 10px;
+}
+
+
+/* Footer */
+footer {
+  min-height: 25px;
+  background-color: rgb(82, 10, 10);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Footer Links */
+a {
+  color: white;
+  font-family: "Frank Ruhl Libre";
+  font-size: 160%;
+}
+
+
+
+

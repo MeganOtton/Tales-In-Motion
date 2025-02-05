@@ -5,12 +5,12 @@ let playerName = "";
 const chapters = {
         start: {
             title: "Chapter 1: Introduction",
-            image: "assets/images/front-door.png",
+            image: "assets/images/front_page.webp",
             description: "Hello Adventurer! Before we get started on our journey, we’re going to need a name! So, What is your name, Adventurer?",
         },
         chapter1: {
             title: "Chapter 2: The Journey Begins",
-            image: "assets/images/front-door.png",
+            image: "assets/images/front_door.webp",
             description: "After a lovely walk in the forest with your family, you've returned home to your small cottage, the front door which you’re sure you closed ajar. {playerName}, What do you do?",
             options: {
                 a: "chapter2",
@@ -19,7 +19,7 @@ const chapters = {
         },
         chapter1A: {
             title: "Chapter 2: Explore Outside",
-            image: "assets/images/bedroom-window.png",
+            image: "assets/images/bedroom_window.webp",
             description: "You’ve decided to walk around the cottage. As you walk around the cottage you notice sparkly shards on the grass floor, the bedroom window shattered. Sharp rectangular shards stick up around the edges of the frame, too perilous for someone of your size to climb through.",
             options: {
                 a: "chapter1",
@@ -28,7 +28,7 @@ const chapters = {
 
         chapter2: {
             title: "Chapter 2: Kitchen",
-            image: "assets/images/kitchen.png",
+            image: "assets/images/kitchen.webp",
             description: "You’ve decided to enter the cottage, you walk into the cozy kitchen you're accustomed to. Nothing appears to be out of place at first glance. The porridge you left to cool before your walk is still on the wooden table. The smell of the porridge still in the air. What do you do, {playerName}?",
             options: {
                 a: "chapter2a",
@@ -40,7 +40,7 @@ const chapters = {
 
         chapter2a: {
             title: "Chapter 2: The Porridge",
-            image: "assets/images/porridge.png",
+            image: "assets/images/porridge.webp",
             description: "You’ve decided to check the porridge. Your bowl is undisturbed apart from a small spoon’s worth missing. The middle bowl is in a similar condition however the Baby Bears bowl is all gone. Beside it lies a sticky key slightly covered in porridge.",
             options: {
 
@@ -52,7 +52,7 @@ const chapters = {
         },
         chapter3: {
             title: "Chapter 3: Upstairs",
-            image: "assets/images/bedroom-door.png",
+            image: "assets/images/bedroom_door.webp",
             description: "As you explore the rest of the house, nothing seems out of place. The last place you look is the upstairs bedroom. It's locked! What do you do next {playerName}?",
             options: {
                 a: "chapter4a",
@@ -65,8 +65,8 @@ const chapters = {
         
         chapter4a: {
             title: "Chapter 4: The Tresspasser!",
-            image: "assets/images/bedroom-door.png",
-            description: "You quietly unlock the bedroom door and slowly open it. Looking around, you see your bed, the covers disturbed as though somebody has recently been in it. The middle bed is in a similar state, but what really catches your eye is the lump in the smallest bed. The covers are moving slightly, there's somebody in there! What do you do {playerName}?",
+            image: "assets/images/bedroom.webp",
+            description: "You quietly unlock the bedroom door and slowly open it. Looking around, you see your bed, the covers disturbed as though somebody has recently been in it. The opposite bed is in a similar state, but what really catches your eye is the lump in the smallest bed. The covers are moving slightly, there's somebody in there! What do you do {playerName}?",
             options: {
                 a: "goodEndingA",
                 b: "goodEndingB"
@@ -78,7 +78,7 @@ const chapters = {
 
         chapter4b: {
             title: "Chapter 4: The Tresspasser!",
-            image: "assets/images/bedroom-door.png",
+            image: "assets/images/goldilocks_escapes.webp",
             description: "The door is locked, but you're not going to let that stop you. You take a few steps back and charge at the door, it splinters and breaks open. A figure in the smallest bed jumps up and leaps out of the broken window, making her nimble escape. She has avoided justice and your wrath.",
             options: {
                 a: "goodEndingA",
@@ -91,7 +91,7 @@ const chapters = {
 
         goodEndingA: {
             title: "The End",
-            image: "assets/images/bedroom-door.png",
+            image: "assets/images/goldilocks_pie.webp",
             description: "As a bear, you are expertly equipped to deal with intruders and protect your family. Thankfully it got you a nice meal out of it too and it was just right.",
             options: {
                 a: "goodEndingA",
@@ -104,7 +104,7 @@ const chapters = {
 
         goodEndingB: {
             title: "The End",
-            image: "assets/images/bedroom-door.png",
+            image: "assets/images/goldilocks_jail.webp",
             description: "Being a friendly, law-abiding bear, you decide to call the park rangers for help. They arrive and take the intruder away, you and your family are safe once more.",
             options: {
                 a: "goodEndingA",
@@ -185,7 +185,6 @@ const chapters = {
                 // }
                 optionA.onclick = () => updateCard(chapters[chapter].options.a);
                 optionB.onclick = () => updateCard(chapters[chapter].options.b);
-                console.log(chapter);
 
                 //Per Chapter Button/Option Name Change
                 if (chapter === "chapter1") {
